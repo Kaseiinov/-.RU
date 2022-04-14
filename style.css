@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Yanone+Kaffeesatz:wght@400;700&display=swap");
+
+body {
+  background: url(img/avtomobil_sportkar_neon_145748_3840x2160.jpg) no-repeat;
+  background-size: cover;
+  justify-content: center;
+
+  color: #fff;
+}
+/* font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Comfortaa', cursive; */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.box {
+  width: 100%;
+  max-width: 850px;
+
+  margin: 0 auto;
+  padding-top: 40px;
+
+  background-color: rgb(21, 21, 27);
+  border-radius: 20px;
+}
+
+.container {
+  margin: 0 25px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header__inner {
+  margin-bottom: 40px;
+  font-family: "Comfortaa", cursive;
+  color: #fff;
+
+  display: flex;
+}
+
+.header__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(218, 209, 110);
+  margin-right: 50px;
+}
+
+.header__link {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 80%;
+
+  margin-right: 20px;
+}
+
+.header__link:hover {
+  border-bottom: 2px solid yellow;
+  color: yellow;
+  opacity: 100%;
+  transition: 50ms linear;
+}
+
+.header__text {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+.lin {
+  border: 1px solid rgb(218, 209, 110);
+  width: 100%;
+}
+
+/* slider
+=========== */
+
+.slider {
+  margin: 20px 100px 20px;
+}
+
+.slider__item {
+  overflow: hidden;
+}
+
+.slider__ul {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+}
+
+.slider__img {
+  flex-basis: 100%;
+  flex-shrink: 0;
+}
+
+.no-js .prew,
+.no-js .next {
+  display: none;
+}
+
+.no-js .slider__item-wrap {
+  overflow: initial;
+}
+
+.no-js .slider__ul {
+  overflow-x: auto;
+
+  scroll-snap-type: x mandatory;
+}
+
+.no-js .slider__img {
+  scroll-snap-align: center;
+}
+
+/* video
+========== */
+
+.video__mp4 {
+  width: 800px;
+  height: 600px;
+
+  margin: 10px;
+}
+
+/* info
+========= */
+
+.info__inner {
+  width: 800px;
+
+  color: rgba(255, 255, 255, 0.788);
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+
+  margin-left: 50px;
+}
+
+.info__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.rub {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: yellow;
+}
+
+.info__locat {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.table {
+  margin-bottom: 25px;
+  width: 100%;
+  color: rgba(167, 161, 161, 0.788);
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(1) {
+  color: rgba(255, 255, 255, 0.788);
+}
+
+.info__prod {
+  line-height: 27px;
+  padding-bottom: 30px;
+}
